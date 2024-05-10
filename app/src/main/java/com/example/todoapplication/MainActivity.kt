@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         }
         deleteAll.setOnClickListener{
             DataObject.deleteAll()
+
         }
 
         recycler_view.adapter=Adapter(DataObject.getAllData())
